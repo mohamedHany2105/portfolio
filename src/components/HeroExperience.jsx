@@ -2,9 +2,9 @@ import React from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
 import { useMediaQuery } from 'react-responsive';
-import { Room } from './HeroModels/room';
-import HeroLights from './HeroModels/HeroLights';
-import Particles from './HeroModels/Particles';
+import { Room } from './models/HeroModels/room';
+import HeroLights from './models/HeroModels/HeroLights';
+import Particles from './models/HeroModels/Particles';
 
 const HeroExperience = () => {
     const isTable = useMediaQuery({ query: '(max-width:1024px)' });
