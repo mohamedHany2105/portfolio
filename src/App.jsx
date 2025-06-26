@@ -21,7 +21,7 @@ const App = () => {
   <TechStack/>
   <Testimonials/>
 
-  {/* <Contact/> */}
+  <Contact/>
   <Footer/>
   
   </>
